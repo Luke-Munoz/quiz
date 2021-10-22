@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h2 {
+    font-size: large;
+}
+
+a {
+    font-size: large;
+    color: #7b38d8;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    margin: 20px;
+    padding: 20px 35px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header div p {
+    margin-right: 50px;
+}
+
+.content {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.content h1 {
+    text-align: center;
+    margin: 25px;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.content {
+    text-align: center;
+}
+
+.answers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#start {
+    display: inline-block;
+    background-color: #7b38d8;
+    border-radius: 10px;
+    border: 4px #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#start:hover {
+    background-color: #a064f5;
+}
+
+.choice {
+    display: inline-block;
+    background-color: #7b38d8;
+    border-radius: 10px;
+    border: 4px #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    width: 250px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.choice-1 {
+    display: inline-block;
+    background-color: #7b38d8;
+    border-radius: 10px;
+    border: 4px #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    width: 250px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.choice:hover {
+    background-color: #a064f5;
+}
+
+.feedback {
+    display: inline-block;
+    color: gray;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.score-form {
+    margin: 10px;
+    padding: 5px;
+    height: 20px;
+    width: 15%;
+    border-radius: 4px;
+}
+
+.scores {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
